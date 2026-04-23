@@ -1,0 +1,53 @@
+main div{
+   justify-content: center;
+   align-content: center;
+
+   border: solid 5px var(--green);
+}
+
+nav{
+   margin-bottom: 56px;
+}
+
+nav>p{
+   color: var(--red);
+   text-align: center;
+   font: var(--subtitle-incoso);
+}
+
+nav p:nth-child(2){
+   margin-top: 8px;
+   color: var(--gray-100);
+   font: var(--title-md-asap);
+}
+
+main div:nth-child(2){
+   width: 888px;
+   margin: 0 auto;
+   justify-content: center;
+   align-content: center;
+}
+
+main section{
+   width: 280px;
+   height: 155px;
+   border: solid var(--gray-500) 2px;
+   padding: 20px;
+   
+   img{
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+   }
+
+   span{
+      margin-top: 20px;
+      color: var(--gray-100);
+      font: var(--title-sm-asap);
+   }
+
+   p{
+      color: var(--gray-200);
+      font: var(--text-sm);
+   }
+}

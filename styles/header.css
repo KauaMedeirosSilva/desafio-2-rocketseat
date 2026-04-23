@@ -1,12 +1,11 @@
-
-
 header{
    background-image: url(/assets/img/Background_Intro.png);
    background-size: cover;
    background-position: center;
-   height: 750px;
    justify-content: center;
    align-content: center;
+   height: 750px;
+   margin-bottom: 130px;
 }
 
 div{
@@ -90,4 +89,11 @@ figure{
 
 #node img{
    background: var(--green);
+}
+
+#double-arrow{
+   justify-self: center;
+   width: fit-content;
+   height: fit-content;
+   margin-top: 0px;
 }

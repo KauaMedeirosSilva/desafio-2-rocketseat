@@ -5,3 +5,9 @@
 .grid-col{
    grid-auto-flow: column;
 }
+
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
