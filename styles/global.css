@@ -1,3 +1,9 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 :root{
    --red: #E3646E;
    --purple: #BB72E9;
@@ -23,6 +29,11 @@
 
    --text-md: 16px/140% var(--font-family-mavenpro);
    --text-sm: 14px/140% var(--font-family-mavenpro);
-
-
 }
+
+.container{
+   width: 1040px; 
+   height: 584px;
+   justify-content: center;
+}
+
