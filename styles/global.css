@@ -37,7 +37,28 @@
    justify-content: center;
 }
 
+.flex{
+   display: flex;
+   align-items: center;
+
+}
+
+.figura-left {
+  gap: 12px;
+}
+
 body{
    background-color: var(--gray-600);
+   height: 480px;
+}
+
+h2{
+   color: var(--gray-100);
+   font: var(--title-md-asap);
+   text-align: center;
+}
+
+.arrow {
+  margin-left: auto;
 }
 

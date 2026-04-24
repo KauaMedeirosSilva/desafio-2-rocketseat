@@ -1,15 +1,13 @@
 main{
-   margin-bottom: 248px;
+   background-color: var(--gray-600);
 }
 
 main div{
    justify-content: center;
    align-content: center;
-
-   border: solid 5px var(--green);
 }
 
-nav{
+main > div{
    margin-bottom: 56px;
 }
 
@@ -54,4 +52,8 @@ main section{
       color: var(--gray-200);
       font: var(--text-sm);
    }
+}
+
+main section:hover{
+   border: solid 1.5px var(--gray-300);
 }
